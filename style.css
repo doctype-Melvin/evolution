@@ -25,12 +25,12 @@ body {
 body {
   display: grid;
   grid-template-areas:
-    "header header header"
-    "sidebar content content"
-    "sidebar content content"
-    "footer footer footer";
-  grid-template-columns: 0.3fr 1fr 1fr;
-  grid-template-rows: 0.15fr 1fr 1fr 0.15fr;
+    "header"
+    "content"
+    "content"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.15fr 1fr 1fr 0.1fr;
 }
 
 header {
@@ -47,16 +47,40 @@ nav {
   height: 100%;
 }
 
+.sidebar {
+  grid-area: sidebar;
+  background-color: var(--greenish);
+}
+
 .content {
   grid-area: content;
+  display: grid;
+  grid-template-areas:
+    "sidebar hero"
+    "sidebar info"
+    "sidebar gallery"
+    "sidebar text";
+  grid-template-columns: 0.2fr 1fr;
+  grid-template-rows: repeat(4, 0.5fr);
 }
 
 .hero {
-  height: 50vh;
   background-image: url("https://static.nationalgeographic.co.uk/files/styles/image_3200/public/nature-photo-contest-2017-trees26.jpg?w=1900&h=1068");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.info {
+  background-color: var(--blueish);
+}
+
+.gallery {
+  background-color: var(--reddish);
+}
+
+.text {
+  background-color: var(--white);
 }
 
 footer {
@@ -70,4 +94,9 @@ footer {
 .footerLink {
   margin-left: 5px;
   text-decoration: none;
+  color: var(--dark);
+}
+
+.footerLink:visited {
+  color: var(--reddish);
 }
