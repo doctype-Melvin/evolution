@@ -12,7 +12,7 @@
   --blueish: #00a6ed;
   --greenish: #7fb800;
   --dark: #0d2c54;
-  --dark-opque: #0d2c5475;
+  --dark-opque: #0d2c542e;
 }
 
 html,
@@ -87,6 +87,7 @@ nav > a:visited {
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -98,6 +99,16 @@ nav > a:visited {
   background-color: var(--dark-opque);
   padding: 10px 15px;
   border-radius: 5px;
+}
+
+h3 {
+  color: var(--yellowish);
+  margin: 0;
+  font-size: 2vw;
+  -webkit-text-stroke: 1px var(--black);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
 }
 
 .info {
@@ -127,7 +138,7 @@ nav > a:visited {
 }
 
 .galleryImg:hover {
-  scale: 1.2;
+  scale: 1.1;
   cursor: pointer;
 }
 
@@ -165,7 +176,7 @@ nav > a:visited {
   color: var(--white);
   transition: color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
 }
 
 .topBtn:hover {
