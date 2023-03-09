@@ -44,6 +44,7 @@ header {
   top: 0;
   width: 100%;
   padding: 10px 0;
+  z-index: 10;
 }
 
 nav {
@@ -55,13 +56,19 @@ nav {
   height: 100%;
 }
 
-nav > a {
-  color: var(--white);
+.navLink {
   text-decoration: none;
+  border-bottom: 2px transparent solid;
+  color: var(--dark);
+  transition: border-bottom 0.2s ease-in;
 }
 
-nav > a:visited {
-  color: var(--dark);
+.navLink:hover {
+  border-bottom: 2px solid var(--dark);
+}
+
+.navLink:visited {
+  color: var(--blueish);
 }
 
 .sidebar {
@@ -129,6 +136,10 @@ h3 {
   justify-content: space-evenly;
 }
 
+.galleryCt {
+  z-index: 0;
+}
+
 .galleryImg {
   height: 15vw;
   width: 20vw;
@@ -138,8 +149,8 @@ h3 {
 }
 
 .galleryImg:hover {
-  scale: 1.1;
   cursor: pointer;
+  scale: 1.1;
 }
 
 .text {
