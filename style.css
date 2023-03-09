@@ -47,6 +47,15 @@ nav {
   height: 100%;
 }
 
+nav > a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+nav > a:visited {
+  color: var(--dark);
+}
+
 .sidebar {
   grid-area: sidebar;
   background-color: var(--greenish);
@@ -69,10 +78,34 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleCt {
+  background-color: var(--dark);
+}
+
+.heroTitle {
+  color: var(--white);
+  text-align: center;
+  font-size: 5vw;
+  padding: 10px;
 }
 
 .info {
   background-color: var(--blueish);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoPara {
+  padding: 15px;
+  width: 60vw;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .gallery {
@@ -81,6 +114,12 @@ nav {
 
 .text {
   background-color: var(--white);
+  margin: 20px 50px;
+}
+
+.addInfo {
+  margin: 15px;
+  text-align: justify;
 }
 
 footer {
