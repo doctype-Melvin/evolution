@@ -158,12 +158,14 @@ nav > a:visited {
   position: fixed;
   left: 30px;
   bottom: 40px;
-  background-color: var(--greenish);
+  background-color: var(--reddish);
   border: none;
-  padding: 15px 20px;
+  padding: 10px 15px;
+  border-radius: 50px;
   color: var(--white);
   transition: color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
+  font-size: 1.5vw;
 }
 
 .topBtn:hover {
