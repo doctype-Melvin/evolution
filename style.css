@@ -1,0 +1,73 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --reddish: #f6511d;
+  --yellowish: #ffb400;
+  --blueish: #00a6ed;
+  --greenish: #7fb800;
+  --dark: #0d2c54;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sidebar content content"
+    "sidebar content content"
+    "footer footer footer";
+  grid-template-columns: 0.3fr 1fr 1fr;
+  grid-template-rows: 0.15fr 1fr 1fr 0.15fr;
+}
+
+header {
+  grid-area: header;
+  background-color: var(--yellowish);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.content {
+  grid-area: content;
+}
+
+.hero {
+  height: 50vh;
+  background-image: url("https://static.nationalgeographic.co.uk/files/styles/image_3200/public/nature-photo-contest-2017-trees26.jpg?w=1900&h=1068");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellowish);
+}
+
+.footerLink {
+  margin-left: 5px;
+  text-decoration: none;
+}
