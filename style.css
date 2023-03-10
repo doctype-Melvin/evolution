@@ -111,7 +111,7 @@ nav {
 h3 {
   color: var(--yellowish);
   margin: 0;
-  font-size: 2vw;
+  font-size: 2.5rem;
   -webkit-text-stroke: 1px var(--black);
   margin-left: auto;
   margin-right: auto;
