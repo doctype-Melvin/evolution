@@ -102,7 +102,7 @@ nav {
 .heroTitle {
   color: var(--white);
   text-align: center;
-  font-size: 3vw;
+  font-size: 4rem;
   background-color: var(--dark-opque);
   padding: 10px 15px;
   border-radius: 5px;
@@ -127,7 +127,7 @@ h3 {
 .infoPara {
   padding: 15px;
   width: 60vw;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   text-align: center;
 }
 
