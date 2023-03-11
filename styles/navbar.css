@@ -8,3 +8,14 @@
   --dark: #0d2c54;
   --dark-opque: #0d2c542e;
 }
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+}
+
+.navLink {
+  text-decoration: none;
+}
