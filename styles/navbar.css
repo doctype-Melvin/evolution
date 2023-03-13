@@ -1,12 +1,12 @@
 :root {
   --white: #fff;
   --black: #000;
-  --reddish: #f6511d;
-  --yellowish: #ffb400;
-  --blueish: #00a6ed;
-  --greenish: #7fb800;
-  --dark: #0d2c54;
-  --dark-opque: #0d2c542e;
+  --reddish: #f56960;
+  --yellowish: #f3c98b;
+  --blueish: #9cf6f6;
+  --main: #daa588;
+  --dark: #c46d5e;
+  --dark-opaque: #0d2c542e;
 }
 
 .navBar {
