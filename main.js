@@ -1,3 +1,5 @@
+console.log("testing debug console");
+console.log("Testing hello");
 const topBtn = document.querySelector(".topBtn");
 
 window.onscroll = function () {
