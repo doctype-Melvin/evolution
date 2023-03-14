@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "console": "integratedTerminal",
+      "console": "externalTerminal",
       "program": "${workspaceFolder}/main.js"
     }
   ]
