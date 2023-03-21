@@ -3,7 +3,7 @@
   background-position: center;
   background-size: cover;
   width: 100vw;
-  height: 350px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +21,6 @@
 .hero__caption {
   background-color: var(--yellowish);
   padding: 5px 10px;
-  border-radius: 5px;
   width: 100vw;
   text-align: center;
 }
