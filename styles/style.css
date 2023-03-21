@@ -8,6 +8,17 @@
   box-sizing: border-box;
 }
 
+:root {
+  --white: #fff;
+  --black: #000;
+  --reddish: #f56960;
+  --yellowish: #f3c98b;
+  --blueish: #9cf6f6;
+  --main: #daa588;
+  --dark: #c46d5e;
+  --dark-opaque: #0d2c542e;
+}
+
 html,
 body {
   padding: 0;
