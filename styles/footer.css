@@ -1,0 +1,16 @@
+footer {
+  width: 100vw;
+  padding: 5px 15px;
+  background-color: var(--blueish);
+}
+
+[data-js="footerContent"] {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+[data-js="footerContent"] > .footerLink {
+  text-decoration: none;
+  color: var(--black);
+}

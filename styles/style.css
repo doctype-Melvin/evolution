@@ -1,6 +1,7 @@
 @import "./navbar.css";
 @import "./hero.css";
-@import "./accordion.css";
+@import "./overview.css";
+@import "./footer.css";
 
 *,
 *:before,
