@@ -1,0 +1,10 @@
+[data-js="overview"] {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+[data-js="infoText"],
+[data-js="additionalText"] {
+  text-align: justify;
+  padding: 0 10px;
+}
