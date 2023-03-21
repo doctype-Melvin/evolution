@@ -22,5 +22,6 @@
   background-color: var(--yellowish);
   padding: 5px 10px;
   width: 100vw;
+  font-size: 1.1rem;
   text-align: center;
 }
